@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Super contador</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
  <header>
-     <h1>Vamos contar</h1>
+     <h1>Tabuada</h1>
  </header>
  <section>
-     <div id="dados">
-         <p>Inicio:<impute type="number" name="inicio" id="txti"></p>
-         <p>Fim: <impute type="number" name="fim" id="txtf"></p>
-         <p>Passo:<impute type="number" name="passo" id="txtp"></p>
-            <p><impute type="button" value="contar" onclick="contar()"></p>
+     <div >
+         <p>número:<impute type="number" name="num" id="txtn"></p>
+            <p><impute type="button" value="gerar  tabuada" onclick="tabuada()" ></p>
      </div>
-     <div id="res">
-         Preparando a contagem
+     <div>
+         <select name="Tabuada" id ="selttab" size="10">
+             <option> Digite um número acima <option>
+        
+         </select>
      </div>
      
  </section>
+
  <footer>
      <p>&copy;Curso em vídeo</p>
  </footer>
